@@ -22,7 +22,7 @@ end)
 
 Section:NewLabel("No Nfts Yet Until Duping And Nft Buying Comes Back")
 
-Section:NewLabel("If you dont know Anti Reap Tutorial: ")
+Section:NewLabel("If you dont know Anti Reap Tutorial:https://youtube.com/channel/UCfQVKFI7uFWETyCqkgFGYYw ")
 
 local Tab = Window:NewTab("Misc")
 
