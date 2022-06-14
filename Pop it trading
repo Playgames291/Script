@@ -22,7 +22,7 @@ end)
 
 Section:NewLabel("No Nfts Yet Until Duping And Nft Buying Comes Back")
 
-Section:NewLabel("If you dont know Anti Reap Tutorial:https://youtube.com/channel/UCfQVKFI7uFWETyCqkgFGYYw ")
+Section:NewLabel("If you dont know Anti Reap Tutorial On Yt")
 
 local Tab = Window:NewTab("Misc")
 
@@ -603,3 +603,6 @@ Section:NewLabel("Credits to Playgames291")
 Section:NewLabel("Credits to spekzZ")
 
 Section:NewLabel("More Coming Soon(Update)")
+local Tab = Window:NewTab("YT Tutorial Here:")
+local Section = Tab:NewSection("Anti Reap Tutorial + My Yt")
+Section:NewLabel("https://youtube.com/channel/UCfQVKFI7uFWETyCqkgFGYYw")
