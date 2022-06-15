@@ -19,11 +19,6 @@ loadstring(game:HttpGet("https://thekillerhood.xyz/PopitScript/FREEANTIREAP"))()
     end
 
 end)
-
-local Tab = Window:NewTab("💲 NormalShop 💲")
-
-local Section = Tab:NewSection("Normal Shop Simple. ")
-
 Section:NewButton("Buy PopItRainbow!", "PopItRainbow!", function() local args = { [1] = "Pop It Rainbow!" }
 
 game:GetService("ReplicatedStorage").RemoteEvents.BuyItemCash:FireServer(unpack(args))
