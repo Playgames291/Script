@@ -606,3 +606,46 @@ Section:NewLabel("More Coming Soon(Update)")
 local Tab = Window:NewTab("YT Tutorial Here:")
 local Section = Tab:NewSection("Anti Reap Tutorial + My Yt")
 Section:NewLabel("Playgames291 My Yt Sub Or No Update")
+local Tab = Window:NewTab("💲 NormalShop 💲")
+
+local Section = Tab:NewSection("Normal Shop Simple. ")
+
+Section:NewButton("Buy PopItRainbow!", "PopItRainbow!", function() local args = { [1] = "Pop It Rainbow!" }
+
+game:GetService("ReplicatedStorage").RemoteEvents.BuyItemCash:FireServer(unpack(args))
+
+truwe("Clicked")
+
+end)
+
+Section:NewButton("Buy RagdollCrown!", "RagdollCrown!", function() local args = { [1] = "Ragdoll Crown" }
+
+game:GetService("ReplicatedStorage").RemoteEvents.BuyItemCash:FireServer(unpack(args))
+
+truwe("Clicked")
+
+end)
+
+Section:NewButton("Buy CrystalRainbow!", "RainbowCrystal!", function() local args = { [1] = "Crystal Rainbow" }
+
+game:GetService("ReplicatedStorage").RemoteEvents.BuyItemCash:FireServer(unpack(args))
+
+truwe("Clicked")
+
+end)
+
+Section:NewButton("Buy Lolly Rainbow!", "Rainbow Lolly!", function() local args = { [1] = "Lolly Rainbow" }
+
+game:GetService("ReplicatedStorage").RemoteEvents.BuyItemCash:FireServer(unpack(args))
+
+truwe("Clicked")
+
+end)
+
+Section:NewButton("Buy Amongus Raibow!", "IDK SO HARD TO CODE!", function() local args = { [1] = "Amogus Rainbow" }
+
+game:GetService("ReplicatedStorage").RemoteEvents.BuyItemCash:FireServer(unpack(args))
+
+truwe("Clicked")
+
+end)
