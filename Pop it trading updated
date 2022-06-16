@@ -19,51 +19,77 @@ loadstring(game:HttpGet("https://thekillerhood.xyz/PopitScript/FREEANTIREAP"))()
     end
 
 end)
+local Section = Tab:NewSection("Buy Stuff")
 
-local tab = Window:NewTab("Buy")
+Section:NewButton("Buy Banana", "Buy Banana", function()
 
-local Section = Tab:NewSection("Buy Items")
+	local args = {		[1] = "The banana"
 
-Section:NewButton("Buy PopItRainbow!", "PopItRainbow!", function() local args = { [1] = "Pop It Rainbow!" }
+	}
 
-game:GetService("ReplicatedStorage").RemoteEvents.BuyItemCash:FireServer(unpack(args))
-
-truwe("Clicked")
-
-end)
-
-Section:NewButton("Buy RagdollCrown!", "RagdollCrown!", function() local args = { [1] = "Ragdoll Crown" }
-
-game:GetService("ReplicatedStorage").RemoteEvents.BuyItemCash:FireServer(unpack(args))
-
-truwe("Clicked")
+	game:GetService("ReplicatedStorage").RemoteEvents.BuyItemCash:FireServer(unpack(args))
 
 end)
 
-Section:NewButton("Buy CrystalRainbow!", "RainbowCrystal!", function() local args = { [1] = "Crystal Rainbow" }
+Section:NewButton("Buy Rb popit", "Buy Rb popits", function()
 
-game:GetService("ReplicatedStorage").RemoteEvents.BuyItemCash:FireServer(unpack(args))
+	local args = {
 
-truwe("Clicked")
+		[1] = "Pop It Rainbow!"
 
-end)
+	}
 
-Section:NewButton("Buy Lolly Rainbow!", "Rainbow Lolly!", function() local args = { [1] = "Lolly Rainbow" }
-
-game:GetService("ReplicatedStorage").RemoteEvents.BuyItemCash:FireServer(unpack(args))
-
-truwe("Clicked")
+	game:GetService("ReplicatedStorage").RemoteEvents.BuyItemCash:FireServer(unpack(args))
 
 end)
 
-Section:NewButton("Buy Amongus Raibow!", "IDK SO HARD TO CODE!", function() local args = { [1] = "Amogus Rainbow" }
+Section:NewButton("Buy Rb Lolly", "Buy Rb Lolly", function()
 
-game:GetService("ReplicatedStorage").RemoteEvents.BuyItemCash:FireServer(unpack(args))
+	local args = {
 
-truwe("Clicked")
+		[1] = "Lolly Rainbow"
+
+	}
+
+	game:GetService("ReplicatedStorage").RemoteEvents.BuyItemCash:FireServer(unpack(args))
 
 end)
 
+Section:NewButton("Buy Rb Amogus", "Buy Rb Amogus", function()
+
+	local args = {
+
+		[1] = "Amogus Rainbow"
+
+	}
+
+	game:GetService("ReplicatedStorage").RemoteEvents.BuyItemCash:FireServer(unpack(args))
+
+end)
+
+Section:NewButton("Buy Crystal Rainbow", "Buy Crystal Rainbow", function()
+
+	local args = {
+
+		[1] = "Crystal Rainbow"
+
+	}
+
+	game:GetService("ReplicatedStorage").RemoteEvents.BuyItemCash:FireServer(unpack(args))
+
+end)
+
+Section:NewButton("Buy Watermelon", "Buy Watermelon", function()
+
+	local args = {
+
+		[1] = "Watermelon"
+
+	}
+
+	game:GetService("ReplicatedStorage").RemoteEvents.BuyItemCash:FireServer(unpack(args))
+
+end)
 Section:NewLabel("No Nfts Yet Until Duping And Nft Buying Comes Back")
 
 Section:NewLabel("If you dont know Anti Reap Tutorial On Yt")
