@@ -19,6 +19,9 @@ loadstring(game:HttpGet("https://thekillerhood.xyz/PopitScript/FREEANTIREAP"))()
     end
 
 end)
+
+local Tab = Window:NewTab("Buy")
+
 local Section = Tab:NewSection("Buy Stuff")
 
 Section:NewButton("Buy Banana", "Buy Banana", function()
