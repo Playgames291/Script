@@ -1,0 +1,22 @@
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+
+local Window = Library.CreateLib("Script", "Sentinel")
+
+local Tab = Window:NewTab("Script")
+
+local Section = Tab:NewSection("Raise A Floppa 2 Script")
+
+Section:NewToggle("Raise A Floppa 2", "Toggle Script", function(state)
+
+    if state then
+
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/Playgames291/Script/main/Raise%20A%20Floppa%202%20Script"))()
+
+    else
+
+        print("Lol that doesnt work")
+
+    end
+
+end)
+
